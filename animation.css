@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10%;
+}
+
+.bx1{
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    background-color: beige;
+    border-radius: 50%;
+    animation: anima 2s infinite;
+    background-image: url(https://i.etsystatic.com/12788739/r/il/82ef5f/1007002253/il_794xN.1007002253_4xq9.jpg);
+    background-size: cover;
+}
+
+.bx2{
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    background-color: brown;
+    border-radius: 50%;  
+    animation: anima 2s infinite;
+    background-image: url(https://thumbs.dreamstime.com/z/hypnotic-color-circles-collection-colorful-psychedelic-spiral-backgrounds-abstract-hypnosis-optical-illusion-swirls-vector-110108434.jpg);
+    background-size: cover;
+}
+
+@keyframes anima{
+20%{
+    transform: rotate(360deg);
+}
+
+50%{
+        transform: translateY(50px);
+    }
+
+100%{
+        transform: scale(2);
+    }
+}
